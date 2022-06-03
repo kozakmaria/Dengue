@@ -1,0 +1,61 @@
+@font-face {
+    font-family: APOLLO;
+    src: url('APOLLO.otf');
+}
+
+:root{
+   --cor_fundo:#e3d5f8; 
+   --cor_paragrafo: #0000cd;
+   --cor_titulo: #1908a8;
+   --cor_link: #241178;
+   --cor_borda:var(--cor_titulo);
+   --fonte_principal: APOLLO.otf;
+   --fonte_tamanho: 28px;
+}
+
+body{
+   background-color:white;
+   width: 500px;
+   max-width: 100%;
+   margin: 0 auto;
+   font-family: var(--fonte_principal);
+}
+
+img.dengue{
+  width: 70%;
+  border-radius: 8px;
+  border-width: 5px;
+  border-color: var(--cor_titulo);
+  border-style: solid;
+}
+
+img.previnir{
+   width: 80%;
+   border-radius: 8px;
+   border-width: 5px;
+   border-color: var(--cor_titulo);
+   border-style: solid;
+ }
+
+div.imagem{
+    text-align: center;
+}
+
+h1{
+   color: var(--cor_titulo);
+   font-family: var(--fonte_principal);
+   font-size: 300%;
+}
+
+h2{
+    color: var(--cor_titulo);
+    font-family: var(--fonte_principal);
+    font-size: 200%;
+}
+
+p{
+   color: black;
+   text-align: justify;
+   font-family: APOLLO;
+   font-size: 20px;
+}
